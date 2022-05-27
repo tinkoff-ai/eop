@@ -2,14 +2,13 @@
 
 Code Release for [Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters](https://arxiv.org/abs/2110.04156). The repository contains both [implementation of the proposed technique](eop.py) and all the necessary details for reproducing the experiments presented in the paper.
 
-<figure align="center">
-<img 
-  width="70%"
-  height="70%"
-  src="Walker2d-v3_1000_low_uniform.png"
->
-<figcaption><b>Expected Online Performance</b> graph for Walker2D-L-1000 dataset.</figcaption>
-</figure>
+<p align="center">
+  <img
+    width="70%"
+    height="70%"
+    src="Walker2d-v3_1000_low_uniform.png"
+  >
+</p>
 
 ## How to use EOP?
 
@@ -130,7 +129,7 @@ Similar to online evaluation. But you need to specify which offline evaluation a
 ```
 @inproceedings{kurenkov2022eop,
   title = {Showing Your Offline Reinforcement Learning Work: Online Evaluation Budget Matters},
-  author = {Vladislav Kurenkov and Sergey Kolesnkov},
+  author = {Vladislav Kurenkov and Sergey Kolesnikov},
   booktitle = {International Conference on Machine Learning},
   year = {2022},
 }
