@@ -1,0 +1,10 @@
+wandb
+torch
+h5py
+gym
+cloudpickle
+numpy
+tqdm
+stable-baselines3[extra]
+opencv-python-headless
+scipy
