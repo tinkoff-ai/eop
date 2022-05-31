@@ -1,0 +1,88 @@
+@font-face {
+  font-family:'Computer Modern Serif';
+  src: url('./cmunrm.ttf') format('truetype');
+  /*font-display: swap;*/
+}
+
+@font-face {
+  font-family: 'Computer Modern Serif';
+  font-weight: bold;
+  src: url('./cmunbx.ttf') format('truetype');
+  /*font-display: swap;*/
+}
+
+body {
+  margin: 1em auto;
+  padding: 2em;
+  max-width: 55em;
+  font: 1em/1.8 Computer Modern Serif;
+  text-align: justify;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 10px;
+  text-align: center;
+}
+.tap_targets {
+  font-size: 1.2em;
+}
+.header {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-right: 1em;
+  /*color: #bb2222;*/
+  color: #882222;
+}
+.image {
+  text-align: center;
+  padding-top: .5em;
+}
+
+/* links */
+a {
+  color: #0055AA;
+  text-decoration: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* video */
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 70%;
+  padding-top: 39.375%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625 * iframe width) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* metadata */
+.citation {
+  font-weight: bold;
+  font-size:  1em;
+}
+.authors {
+  color: inherit;
+}
+.authors a:link, .authors a:visited {
+  color:#000000; /* author names remain black */
+}
+.venue a:link, .venue a:visited {
+  /*color: #bb2222;*/
+  color: #882222;
+  /*font-weight: bold;*/
+  text-decoration: none;
+  padding-right: .5em;
+}
+
